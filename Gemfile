@@ -8,3 +8,4 @@ gem "jekyll-include-cache"
 gem "jekyll-sitemap"
 
 gem "webrick"
+gem "kramdown-parser-gfm"

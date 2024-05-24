@@ -1,0 +1,9 @@
+services:
+  jekyll:
+    image: jekyll/jekyll:3.1.2
+    container_name: jekyll
+    command: jekyll serve --no-watch
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/srv/jekyll:cached
